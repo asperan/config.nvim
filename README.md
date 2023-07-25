@@ -4,7 +4,7 @@ Absolutely personal (i.e. specifically tailored on my needs and liking) (and may
 
 ## Plugins
 1. [which-key](https://github.com/folke/which-key.nvim)
-2. [tokyonit](https://github.com/folke/tokyonight.nvim)
+2. [tokyonight](https://github.com/folke/tokyonight.nvim)
 3. [telescope](https://github.com/nvim-telescope/telescope.nvim) and [native fzf](gh/nvim-telescope/telescope-fzf-native.nvim)
 4. [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
 5. [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
