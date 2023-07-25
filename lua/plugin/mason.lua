@@ -55,6 +55,7 @@ local servers = {
     dockerls = {},
     rust_analyzer = {},
     solargraph = {},
+    ansiblels = {},
 
     lua_ls = {
         Lua = {
