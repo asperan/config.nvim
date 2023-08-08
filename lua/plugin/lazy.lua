@@ -131,5 +131,9 @@ require("lazy").setup({
             'folke/neodev.nvim',
         },
     },
-    { 'mbbill/undotree', config = require("plugin.undotree").config }
+    { 'mbbill/undotree', config = require("plugin.undotree").config },
+    {
+        'scalameta/nvim-metals',
+        dependencies = { 'nvim-lua/plenary.nvim' },
+    },
 })
