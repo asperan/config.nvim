@@ -30,11 +30,15 @@ wk.register({
     j = { "v:count == 0 ? 'gj' : 'j'", 'Word wrap downward' },
 }, { expr = true })
 
+-- Keymaps to move lines up and down in visual mode
+vim.keymap.set("v", "J", ":m '>+1<cr>gv=gv")
+vim.keymap.set("v", "K", ":m '<-2<cr>gv=gv")
+
 -- Visual mode
-wk.register({
-    ["<s-j>"] = { "<cmd>m '>+1<cr>gv=gv", "Move line down" },
-    ["<s-k>"] = { "<cmd>m '<-2<cr>gv=gv", "Move line up" },
-}, { mode = 'v' })
+-- wk.register({
+--     J = { "<cmd>m '>+1<cr>gv=gv", "Move line down" },
+--     K = { "<cmd>m '<-2<cr>gv=gv", "Move line up" },
+-- }, { mode = 'v' })
 
 -- Terminal mode
 wk.register({
