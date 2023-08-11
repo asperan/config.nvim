@@ -15,6 +15,7 @@ Absolutely personal (i.e. specifically tailored on my needs and liking) (and may
 10. [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 11. [undotree](https://github.com/mbbill/undotree)
 12. [metals](https://github.com/scalameta/metals)
+13. [surround.nvim](https://github.com/ur4ltz/surround.nvim)
 
 ## Sources
 1. [LazyVim documentation](https://www.lazyvim.org/)
