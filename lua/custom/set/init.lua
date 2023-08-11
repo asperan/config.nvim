@@ -60,3 +60,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 -- Hide './' from netrw file list
 -- from https://stackoverflow.com/a/39967383
 vim.g.netrw_list_hide = '.*\\.swp$,.DS_Store,*/tmp/*,*.so,*.swp,*.zip,*.git,^\\.\\.\\=/\\=$'
+
+-- Enable folding with tree-sitter
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+
