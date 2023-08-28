@@ -17,7 +17,7 @@ cmp.setup {
         ['<C-Space>'] = cmp.mapping.complete {},
         ['<CR>'] = cmp.mapping.confirm {
             behavior = cmp.ConfirmBehavior.Replace,
-            select = true,
+            select = false,
         },
         ['<Tab>'] = cmp.mapping(function(fallback)
             if cmp.visible() then
@@ -38,9 +38,11 @@ cmp.setup {
             end
         end, { 'i', 's' }),
     },
-    sources = {
+    sources = cmp.config.sources({
         { name = 'nvim_lsp' },
         { name = 'luasnip' },
-    },
+    }, {
+        { name = 'buffer' },
+    })
 }
 

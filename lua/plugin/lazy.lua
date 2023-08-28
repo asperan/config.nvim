@@ -110,6 +110,9 @@ require("lazy").setup({
             -- Adds LSP completion capabilities
             'hrsh7th/cmp-nvim-lsp',
 
+            -- Add Buffer completion capabilities
+            'hrsh7th/cmp-buffer',
+
             -- Adds a number of user-friendly snippets
             'rafamadriz/friendly-snippets',
         },
