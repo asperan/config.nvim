@@ -138,10 +138,6 @@ require("lazy").setup({
     },
     { 'mbbill/undotree', config = require("plugin.undotree").config },
     {
-        'scalameta/nvim-metals',
-        dependencies = { 'nvim-lua/plenary.nvim' },
-    },
-    {
         'ur4ltz/surround.nvim',
         config = function()
             require("surround").setup({mapping_style = "surround"})
