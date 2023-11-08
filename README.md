@@ -4,7 +4,7 @@ Absolutely personal (i.e. specifically tailored on my needs and liking) (and may
 
 ## Plugins
 1. [which-key](https://github.com/folke/which-key.nvim)
-2. [tokyonight](https://github.com/folke/tokyonight.nvim)
+2. [night-owl](https://github.com/oxfist/night-owl.nvim)
 3. [telescope](https://github.com/nvim-telescope/telescope.nvim) and [native fzf](gh/nvim-telescope/telescope-fzf-native.nvim)
 4. [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
 5. [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
@@ -14,8 +14,9 @@ Absolutely personal (i.e. specifically tailored on my needs and liking) (and may
 9. [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 10. [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 11. [undotree](https://github.com/mbbill/undotree)
-12. [metals](https://github.com/scalameta/metals)
-13. [surround.nvim](https://github.com/ur4ltz/surround.nvim)
+12. [surround.nvim](https://github.com/ur4ltz/surround.nvim)
+13. [auto-indent.nvim](https://github.com/vidocqh/auto-indent.nvim)
+14. [nvim-lint](https://github.com/mfussenegger/nvim-lint)
 
 ## Sources
 1. [LazyVim documentation](https://www.lazyvim.org/)
