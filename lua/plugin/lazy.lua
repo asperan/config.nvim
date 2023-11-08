@@ -151,4 +151,7 @@ require("lazy").setup({
             end
         },
     },
+    {
+        'mfussenegger/nvim-lint',
+    }
 })
