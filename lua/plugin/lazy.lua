@@ -143,4 +143,12 @@ require("lazy").setup({
             require("surround").setup({mapping_style = "surround"})
         end,
     },
+    {
+        'vidocqh/auto-indent.nvim',
+        opts = {
+            indentexpr = function(lnum)
+                return require("nvim-treesitter.indent").get_indent(lnum)
+            end
+        },
+    },
 })
