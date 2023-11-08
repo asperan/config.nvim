@@ -43,3 +43,13 @@ mason_lspconfig.setup_handlers {
     end,
 }
 
+require("mason-tool-installer").setup({
+    ensure_installed = {
+        'shellcheck',
+        'hadolint',
+    },
+    auto_update = true,
+    run_on_start = true,
+    start_delay = 3000, -- ms
+    debounce_hours = 24,
+})
