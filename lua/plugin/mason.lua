@@ -11,11 +11,7 @@ end
 --    the `settings` field of the server config. You must look up that documentation yourself.
 local servers = {
     bashls = {},
-    dockerls = {},
     rust_analyzer = {},
-    solargraph = {},
-    ansiblels = {},
-
     lua_ls = {
         Lua = {
             workspace = { checkThirdParty = false },
