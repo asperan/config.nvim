@@ -12,6 +12,11 @@ end
 local servers = {
     rust_analyzer = {},
     ltex = {},
+    typst_lsp = {
+        settings = {
+            exportPdf = "onSave",
+        },
+    },
     lua_ls = {
         Lua = {
             workspace = { checkThirdParty = false },
