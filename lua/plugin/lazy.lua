@@ -27,13 +27,16 @@ require("lazy").setup({
     },
     -- the colorscheme should be available when starting Neovim
     {
-        "oxfist/night-owl.nvim",
-        lazy = false, -- make sure we load this during startup if it is your main colorscheme
-        priority = 1000, -- make sure to load this before all the other start plugins
+        'asperan/chstr.nvim',
+        -- Load aduring startup if is the main colorscheme
+        lazy = false,
+        -- Load before all the other start plugins
+        priority = 1000,
+        dependencies = 'rktjmp/lush.nvim',
+        -- Set the coloscheme to 'chstr'
         config = function()
-            -- load the colorscheme here
-            vim.cmd.colorscheme("night-owl")
-        end,
+            vim.cmd.colorscheme("chstr")
+        end
     },
     {
         'nvim-telescope/telescope.nvim', tag = '0.1.2',
